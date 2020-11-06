@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="author" content="Maria Socha">
+
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+<form action="/action_page.php">
+  <label for="uname">Username:</label>
+  <input type="text" id="uname" name="uname"><br><br>
+  <label for="pass">Password:</label>
+  <input type="text" id="pass" name="pass"><br><br>
+  
+  <div>
+  <input type="checkbox" id="ifSave" name="ifSave"
+         checked>
+  <label for="ifSave">Save Password</label>
+</div>
+  
+  <input type="submit" value="Submit">
+  <input type="reset" value="Reset">
+  
+  <br><br>
+<div>
+  <input type="radio" id="yes" name="drone" value="yes"
+         checked>
+  <label for="yes">Yes</label>
+    <input type="radio" id="no" name="drone" value="no"
+         checked>
+  <label for="huey">No</label>
+    <input type="radio" id="maybe" name="drone" value="maybe"
+         checked>
+  <label for="maybe">Maybe</label>
+</div>
+
+<label for="pet-select">Choose a language:</label>
+
+<select name="language" id="language-select">
+    <option value="">--Please choose an option--</option>
+    <option value="english">english</option>
+    <option value="polish">polish</option>
+    <option value="french">french</option>
+    <option value="spanish">spanish</option>
+    <option value="german">german</option>
+    <option value="japanese">japanese</option>
+</select>
+
+<div>
+<label for="description">Description:</label>
+
+<textarea id="description" name="description" rows="4" cols="50">
+Enter description
+</textarea>
+</div>
+
+
+</form>
+
+
+</body>
+
+</html>
