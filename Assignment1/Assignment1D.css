@@ -1,0 +1,33 @@
+#language-select {
+    color: lightblue;
+    font-size: 20px;
+}
+
+div {
+    color: lightblue;
+    font-size: 20px;
+}
+
+#login {
+    color: pink;
+    font-size: 20px;
+}
+
+#submitButton {
+    color: pink;
+    font-size: 20px;
+    background: black;
+}
+
+#yes {
+    color: lightblue;
+}
+
+input:required {
+  border-color: blue;
+  border-width: 3px;
+}
+
+input:required:invalid {
+  border-color: red;
+}

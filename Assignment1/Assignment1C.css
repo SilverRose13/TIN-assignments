@@ -1,0 +1,30 @@
+table, td {
+    border: 1px solid pink;
+    border-collapse: collapse;
+  }
+  
+  table, th {
+    border: 3px solid black;
+    border-collapse: collapse;
+  }
+  
+  table a, th {
+    border: 3px solid green;
+    border-collapse: collapse;
+  }
+  
+  td {
+    text-align: center;
+  }
+  
+  ul {
+    list-style-type: square;
+  }
+  
+  a:link {
+    text-decoration: none;
+  }
+  
+  p {
+    font: 15px Courier New, Monospace;
+  }
